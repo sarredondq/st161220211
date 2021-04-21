@@ -75,7 +75,7 @@ Hue-Hive:
     CREATE EXTERNAL TABLE HDI (id INT, country STRING, hdi FLOAT, lifeex INT, mysch INT, eysch INT, gni INT) 
     ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' 
     STORED AS TEXTFILE 
-    LOCATION 's3://<bucketname>/datasets/onu/hdi/'
+    LOCATION 's3://<bucketname>>/datasets/onu/hdi/'
 
 Nota: Esta tabla la crea en una BASE DE DATOS 'mydb'
 

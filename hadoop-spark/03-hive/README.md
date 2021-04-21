@@ -101,7 +101,7 @@ usar los datos en 'datasets' de este repositorio.
     CREATE EXTERNAL TABLE EXPO (country STRING, expct FLOAT) 
     ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' 
     STORED AS TEXTFILE 
-    LOCATION 's3://<bucketname>/datasets/onu/export/'
+    LOCATION 's3://<bucketname>>/datasets/onu/export/'
 
 ### EJECUTAR EL JOIN DE 2 TABLAS:
 

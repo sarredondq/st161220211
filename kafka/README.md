@@ -13,7 +13,7 @@
 ### 5. ejecución de al menos 2 producers desde cli (LOCALHOST)
 ### 6. ejecución de al menos 2 consumers desde cli (LOCALHOST)
 ### 7. ejecutar y entender producers y consumers en python hacia MSK y LOCALHOST
-### 8. RETO: crear una API de twitter para leer mensajes, enviarlos vía Kafka (elegir MSK o LOCALHOST) y en el consumidor almacenarlos en una base de datos mongodb.
+### 8. RETO: Leer desde la API de twitter mensajes, enviarlos vía Kafka (elegir MSK o LOCALHOST) y en el consumidor almacenarlos en una base de datos mongodb.
 ### 9. realizar ejemplos de consultas en mongodb de algunos tuits.
 
 ## Labs en una máquina standalone descargando Kafka: 
@@ -161,6 +161,6 @@ CONSUMERS:
 
         $ bin/kafka-console-consumer.sh --bootstrap-server b-1.st1612-cluster-1.e0djg5.c8.kafka.us-east-1.amazonaws.com:9094 --consumer.config client.properties --topic AWSKafkaTutorialTopic --from-beginning
 
-### 8. RETO: crear una API de twitter para leer mensajes, enviarlos vía Kafka (elegir MSK o LOCALHOST) y en el consumidor almacenarlos en una base de datos mongodb.
+### 8. RETO: Leer desde la API de twitter mensajes, enviarlos vía Kafka (elegir MSK o LOCALHOST) y en el consumidor almacenarlos en una base de datos mongodb.
 
 ### 9. realizar ejemplos de consultas en mongodb de algunos tuits.
